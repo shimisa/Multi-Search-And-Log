@@ -1,0 +1,58 @@
+[TRACE] 2021-04-22 00:20:07.048 [main] Log4J - This is a trace message
+[INFO ] 2021-04-22 00:20:07.057 [main] Log4J - This is an info message
+[ERROR] 2021-04-22 00:20:07.057 [main] Log4J - This is an error message
+[WARN ] 2021-04-22 00:20:07.058 [main] Log4J - This is a warn message
+[FATAL] 2021-04-22 00:20:07.059 [main] Log4J - This is a fatal message
+[TRACE] 2021-04-22 00:23:00.826 [main] Log4J - This is a trace message
+[INFO ] 2021-04-22 00:23:00.830 [main] Log4J - This is an info message
+[ERROR] 2021-04-22 00:23:00.831 [main] Log4J - This is an error message
+[WARN ] 2021-04-22 00:23:00.831 [main] Log4J - This is a warn message
+[FATAL] 2021-04-22 00:23:00.831 [main] Log4J - This is a fatal message
+[INFO ] 2021-04-22 00:50:04.119 [Thread-0] Log4J - Thread number 1started
+[INFO ] 2021-04-22 00:50:04.128 [Thread-4] Log4J - Thread number 1started
+[INFO ] 2021-04-22 00:50:04.129 [Thread-4] Log4J - Thread number 1finished
+[INFO ] 2021-04-22 00:50:04.130 [Thread-3] Log4J - Thread number 2started
+[INFO ] 2021-04-22 00:50:04.131 [Thread-3] Log4J - Thread number 2finished
+[INFO ] 2021-04-22 00:50:04.132 [Thread-2] Log4J - Thread number 3started
+[INFO ] 2021-04-22 00:50:04.133 [Thread-2] Log4J - Thread number 3finished
+[INFO ] 2021-04-22 00:50:04.133 [Thread-1] Log4J - Thread number 4started
+[INFO ] 2021-04-22 00:50:04.134 [Thread-1] Log4J - Thread number 4finished
+[INFO ] 2021-04-22 00:50:04.135 [Thread-0] Log4J - Thread number 5finished
+[INFO ] 2021-04-22 00:54:42.983 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-22 00:54:42.990 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-22 00:54:42.991 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-22 00:54:42.992 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-22 00:54:42.993 [Thread-2] Log4J - The number founded at index: 7
+[INFO ] 2021-04-22 00:54:42.993 [Thread-2] Log4J - Thread number finished
+[INFO ] 2021-04-22 00:54:42.993 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-22 00:54:42.994 [Thread-1] Log4J - Thread number finished
+[INFO ] 2021-04-22 00:54:42.995 [Thread-3] Log4J - Thread number finished
+[INFO ] 2021-04-22 00:54:42.995 [Thread-4] Log4J - Thread number finished
+[INFO ] 2021-04-22 00:54:42.996 [Thread-0] Log4J - Thread number finished
+[INFO ] 2021-04-22 00:55:11.079 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-22 00:55:11.086 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-22 00:55:11.087 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-22 00:55:11.089 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-22 00:55:11.090 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-22 00:55:11.091 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-22 00:55:11.091 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-22 00:55:11.092 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-22 00:55:11.092 [Thread-2] Log4J - The number founded at index: 7
+[INFO ] 2021-04-22 00:55:11.093 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-22 00:55:11.093 [Thread-0] Log4J - Thread finished
+[TRACE] 2021-04-22 12:38:39.048 [main] Log4J - This is a trace message
+[INFO ] 2021-04-22 12:38:39.052 [main] Log4J - This is an info message
+[ERROR] 2021-04-22 12:38:39.052 [main] Log4J - This is an error message
+[WARN ] 2021-04-22 12:38:39.052 [main] Log4J - This is a warn message
+[FATAL] 2021-04-22 12:38:39.053 [main] Log4J - This is a fatal message
+[INFO ] 2021-04-22 12:39:13.373 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-22 12:39:13.379 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-22 12:39:13.380 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-22 12:39:13.382 [Thread-2] Log4J - The number founded at index: 7
+[INFO ] 2021-04-22 12:39:13.382 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-22 12:39:13.383 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-22 12:39:13.384 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-22 12:39:13.385 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-22 12:39:13.385 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-22 12:39:13.386 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-22 12:39:13.386 [Thread-0] Log4J - Thread finished
