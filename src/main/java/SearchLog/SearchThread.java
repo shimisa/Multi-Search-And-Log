@@ -18,7 +18,7 @@ public class SearchThread extends Thread{
     }
 
     /**
-     * the run method to execute the search for every thread
+     * The run method executes the search for every thread
      */
     @Override
     public void run() {

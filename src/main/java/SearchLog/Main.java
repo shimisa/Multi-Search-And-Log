@@ -60,7 +60,13 @@ public class Main {
 
 
         // invoked the recursive version
-        newTreadSearch(i + workArea, j + workArea, workArea, N, array, number, c);
+        try {
+            newTreadSearch(i + workArea, j + workArea, workArea, N, array, number, c);
+        }catch (Exception e){
+            logger.error(e);
+            throw e;
+        }
+
 
         c.waitForAll(); // wait for all threads to finish their work
         System.out.println(c.printResults()); // prints the results

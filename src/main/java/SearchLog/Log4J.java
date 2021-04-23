@@ -18,6 +18,16 @@ public class Log4J {
         logger.warn("This is a warn message");
         logger.fatal("This is a fatal message");
 
+        String str = null;
+
+        try{
+            str.length();
+        }catch(Exception e){
+            logger.error(e);
+        }
+
+        str.length();
+
         System.out.println("\n Completed");
     }
 }

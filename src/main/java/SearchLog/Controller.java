@@ -42,7 +42,7 @@ public class Controller {
                 wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
-                logger.error(e.getMessage()); // logging out as an error
+                logger.error("An exception occurred when thread is waiting", e); // logging out as an error
             }
         }
     }
