@@ -97,3 +97,142 @@
 [INFO ] 2021-04-23 00:09:31.998 [Thread-2] Log4J - Thread finished
 [INFO ] 2021-04-23 00:09:31.999 [Thread-4] Log4J - Thread finished
 [INFO ] 2021-04-23 00:09:32.000 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:01.642 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:01.651 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:01.652 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:01.653 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:01.655 [Thread-2] Log4J - The number founded at index: 7
+[INFO ] 2021-04-23 15:09:01.655 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:01.656 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:01.657 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:01.657 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:01.658 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:01.659 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:24.951 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:24.957 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:24.958 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:24.959 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:24.960 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:24.960 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:24.962 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:24.962 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:24.963 [Thread-4] Log4J - The number founded at index: 12
+[INFO ] 2021-04-23 15:09:24.964 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:24.965 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:37.750 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:37.755 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:37.755 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:37.755 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:37.755 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:37.760 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:37.761 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:37.761 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:37.761 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:37.761 [Thread-4] Log4J - The number founded at index: 12
+[INFO ] 2021-04-23 15:09:37.761 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:52.109 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:52.116 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:52.119 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:52.120 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:52.121 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:52.122 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:52.122 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:09:52.123 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:52.124 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:09:52.125 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:16.459 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:16.469 [Thread-0] Log4J - The number founded at index: 0
+[INFO ] 2021-04-23 15:11:16.469 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:16.469 [Thread-5] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:16.471 [Thread-5] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:16.472 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:16.472 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:16.473 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:16.474 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:16.474 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:16.474 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:16.476 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:16.476 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:31.130 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:31.137 [Thread-5] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:31.138 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:31.139 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:31.139 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:31.140 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:31.141 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:31.142 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:31.142 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:11:31.143 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:31.145 [Thread-5] Log4J - The number founded at index: 12
+[INFO ] 2021-04-23 15:11:31.145 [Thread-5] Log4J - Thread finished
+[INFO ] 2021-04-23 15:11:31.145 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:18:52.735 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:18:52.749 [Thread-0] Log4J - The number founded at index: 0
+[INFO ] 2021-04-23 15:18:52.750 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:18:52.750 [Thread-5] Log4J - Thread started
+[INFO ] 2021-04-23 15:18:52.751 [Thread-5] Log4J - The number founded at index: 12
+[INFO ] 2021-04-23 15:18:52.751 [Thread-5] Log4J - Thread finished
+[INFO ] 2021-04-23 15:18:52.751 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:18:52.753 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:18:52.754 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:18:52.756 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:18:52.756 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:18:52.757 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:18:52.758 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:18:52.759 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:19:49.745 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:19:49.761 [Thread-0] Log4J - The number founded at index: 0
+[INFO ] 2021-04-23 15:19:49.761 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:19:49.761 [Thread-5] Log4J - Thread started
+[INFO ] 2021-04-23 15:19:49.761 [Thread-5] Log4J - The number founded at index: 12
+[INFO ] 2021-04-23 15:19:49.761 [Thread-5] Log4J - Thread finished
+[INFO ] 2021-04-23 15:19:49.766 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:19:49.767 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:19:49.767 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:19:49.769 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:19:49.770 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:19:49.771 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:19:49.772 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:19:49.772 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:24:59.893 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:24:59.900 [Thread-5] Log4J - Thread started
+[INFO ] 2021-04-23 15:24:59.907 [Thread-5] Log4J - The number founded at index: 12
+[INFO ] 2021-04-23 15:24:59.908 [Thread-5] Log4J - Thread finished
+[INFO ] 2021-04-23 15:24:59.908 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:24:59.909 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:24:59.909 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:24:59.910 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:24:59.910 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:24:59.912 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:24:59.912 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:24:59.914 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:24:59.915 [Thread-0] Log4J - The number founded at index: 0
+[INFO ] 2021-04-23 15:24:59.916 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:25:52.393 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:25:52.401 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:25:52.404 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:25:52.405 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:25:52.406 [Thread-5] Log4J - Thread started
+[INFO ] 2021-04-23 15:25:52.415 [Thread-5] Log4J - The number founded at index: 12
+[INFO ] 2021-04-23 15:25:52.416 [Thread-5] Log4J - Thread finished
+[INFO ] 2021-04-23 15:25:52.417 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:25:52.418 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:25:52.418 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:25:52.418 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:25:52.418 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:25:52.418 [Thread-0] Log4J - The number founded at index: 0
+[INFO ] 2021-04-23 15:25:52.418 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:26:25.514 [Thread-0] Log4J - Thread started
+[INFO ] 2021-04-23 15:26:25.532 [Thread-0] Log4J - The number founded at index: 0
+[INFO ] 2021-04-23 15:26:25.532 [Thread-0] Log4J - Thread finished
+[INFO ] 2021-04-23 15:26:25.537 [Thread-1] Log4J - Thread started
+[INFO ] 2021-04-23 15:26:25.538 [Thread-1] Log4J - Thread finished
+[INFO ] 2021-04-23 15:26:25.539 [Thread-2] Log4J - Thread started
+[INFO ] 2021-04-23 15:26:25.540 [Thread-2] Log4J - Thread finished
+[INFO ] 2021-04-23 15:26:25.540 [Thread-3] Log4J - Thread started
+[INFO ] 2021-04-23 15:26:25.540 [Thread-3] Log4J - Thread finished
+[INFO ] 2021-04-23 15:26:25.540 [Thread-4] Log4J - Thread started
+[INFO ] 2021-04-23 15:26:25.540 [Thread-4] Log4J - Thread finished
+[INFO ] 2021-04-23 15:26:25.540 [Thread-5] Log4J - Thread started
+[INFO ] 2021-04-23 15:26:25.540 [Thread-5] Log4J - The number founded at index: 12
+[INFO ] 2021-04-23 15:26:25.540 [Thread-5] Log4J - Thread finished
