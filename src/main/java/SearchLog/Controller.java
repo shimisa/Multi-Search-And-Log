@@ -91,6 +91,11 @@ public class Controller {
      * Defines the work range of each thread
      */
     private synchronized void defineRangeAndMaxTreads(int userNumOfThreads, int userArrayLength) {
+        if (userNumOfThreads < 1){
+            logger.warn("Input number of threads is less than 1 -> Allocating one thread");
+            maxThreads = 1;
+            singleThreadRange = userArrayLength;
+        }
         if (userNumOfThreads > userArrayLength){
             logger.warn("Input number of threads is too high -> Reducing number of threads to array length");
             maxThreads = userArrayLength;
