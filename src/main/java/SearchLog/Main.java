@@ -8,59 +8,37 @@
  * 2. Each thread get a range in the array to search in.
  *
  * @author  Shimi Sadaka
- * @version 1.0
- * @since   2020-04-20
- *
  */
 package SearchLog;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 public class Main {
-    private static final Logger logger = LogManager.getLogger(Log4J.class);
+    private static final Logger logger = LogManager.getLogger(Main.class);
 
     public static void main(String [] args){
 
-        /*
-           The user Input:
-           N - the length of the array
-           T - the Max active threads
-           number - The num to look for in the array
-         */
-        final int[] array = {8,5,3,54,67,2,5,82,9,0,2,434,8};
-        final int T = 5;
+        /* The user input */
+        final int[] userArray = {8,5,3,8,67,2,5,82,8,8};
+        final int numOfTreads = 4;
         int number = 8;
 
-        /* The variables for the algo */
-        final Controller controller;
-        final int N = array.length;
-        int workArea = N/T; // the range for each thread
-        int maxTreads;
-        int i; // index from
-        int j; // index till
+        /* Defines The variables for the algo, and Initializing range work of the first thread  */
+        final int userArrayLength = userArray.length;
+        final Controller controller = new Controller(userArrayLength, numOfTreads, logger);;
 
-        /* define the range work of a thread and the maximum number of threads */
-        if (T >= N) {
-            workArea = 1;
-            maxTreads = N;
-        }
-        else
-            maxTreads = T;
-        controller = new Controller(maxTreads, logger);
-        /* defines the initial range work of the first thread */
-        i = 0;
-        j = workArea;
+        int indexFrom = 0;
+        int indexTill = controller.getSingleThreadRange();
 
         /*
           Creates new threads and run them recursively.
-          while (range work + till index) is bigger array length ->
+          while (range work + till index) is bigger userArray length ->
           start a new thread with the specific  range
-          Else, start the last thread till the end of the array
+          Else, start the last thread till the end of the userArray
          */
         try {
-            newTreadSearch(i, j, workArea, N, array, number, controller);
-        }catch (Exception e){
+            startThread(indexFrom, indexTill, controller.getSingleThreadRange(), userArrayLength, userArray, number, controller.getMaxThreads(), 0, controller);
+        } catch (Exception e){
             logger.error(e);
             throw e;
         }
@@ -70,18 +48,16 @@ public class Main {
     }
 
     /**
-     * The private recursive method for creating and starting the threads
+     * Private recursive method for creating and starting the threads
      */
-    private static void newTreadSearch(int i , int j, int workArea, int N, int[]array, int number, Controller c){
+    private static void startThread(int indexFrom , int indexTill, int singleThreadRange, int N, int[]array, int number, int maxTreads, int threadsStarted, Controller con){
 
-        if ((i + workArea) >= (N - 1)){
-            (new SearchThread(array, number, i, (N - 1), c)).start();
+        if ((threadsStarted + 1) == maxTreads){
+            (new SearchThread(array, number, indexFrom, N, con)).start(); // create and start the last thread
             return;
         }
-
-        (new SearchThread(array, number, i , j, c)).start();  // create and start a new thread
-        newTreadSearch(i + workArea, j + workArea, workArea, N, array, number, c); // the recursive call
-
+        (new SearchThread(array, number, indexFrom , indexTill, con)).start();  // create and start a new thread
+        startThread(indexTill , (indexTill + singleThreadRange), singleThreadRange, N, array, number, maxTreads, threadsStarted + 1, con); // the recursive call
     }
 
 }

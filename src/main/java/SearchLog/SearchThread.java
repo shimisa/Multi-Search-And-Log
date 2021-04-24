@@ -1,8 +1,6 @@
 /**
  * The Controller class manages the threads and provides methods for interact the user
  * @author  Shimi Sadaka
- * @version 1.0
- * @since   2020-04-20
  *
  */
 package SearchLog;
@@ -37,7 +35,7 @@ public class SearchThread extends Thread{
     public void run() {
         controller.treadStarted();
         /* recursive version */
-        controller.setFounded(recSearch(indexFrom,indexTill));
+        controller.setFounded(recSearch(indexFrom,indexTill, ""));
         controller.treadFinished();
     }
 
@@ -47,14 +45,12 @@ public class SearchThread extends Thread{
      * @param j the index till
      * @return if founded - the index of the num. else - -1
      */
-    private int recSearch(int i, int j){
-        if ( j < i /*|| controller.isFounded()*/)
-            return -1;
+    private String recSearch(int i, int j, String str){
+        if (j <= i)
+            return str;
         if (array[i] == number)
-            return i;
-        if (array[j] == number)
-            return j;
-        return recSearch(i + 1, j - 1);
+            str += String.valueOf(i) + ", ";
+        return recSearch(i + 1, j, str);
     }
 
 }

@@ -1,48 +1,48 @@
 /**
  * The Controller class manages the threads and provides methods for interact the user
  * @author  Shimi Sadaka
- * @version 1.0
- * @since   2020-04-20
- *
  */
 package SearchLog;
 import org.apache.logging.log4j.Logger;
+import java.lang.Math;
 
 public class Controller {
-    private final int maxThreads;
+    private final int userArrayLength;
+    private final int userNumOfThreads;
+    private int maxThreads;
+    private int singleThreadRange;
     private int treadsFinished;
-    private boolean founded; // For specifying if the number has found
-    private int indexOfTheNumber;
+    private boolean founded;
     private String strIndexOfTheNumber;
     private final Logger logger;
 
     /**
      * Constructs the controller.
      * initialize founded to false.
-     * @param maxT The max num of threads allocating for the search task
+     * @param n The user array length
      * @param log A pointer for the logger
      */
-    public Controller(int maxT, Logger log) {
-        maxThreads = maxT;
+    public Controller(int n, int numT, Logger log) {
+        userArrayLength = n;
+        userNumOfThreads = numT;
         treadsFinished = 0;
-        indexOfTheNumber = -1;
         strIndexOfTheNumber = "";
         founded = false;
         logger = log;
+        defineRangeAndMaxTreads(numT, n);
     }
 
     /**
      * Method for updating once the number founded
      * Update founded to true
      * log out message
-     * @param index The index of the required number in the array
+     * @param indexes The index of the required number in the array
      */
-    public synchronized void setFounded(int index){
-        if (index != -1){
+    public synchronized void setFounded(String indexes){
+        if (!indexes.equals("")){
             founded = true;
-            indexOfTheNumber = index;
-            strIndexOfTheNumber += String.valueOf(index) + ", ";
-            logger.info("The number founded at index: " + index);
+            strIndexOfTheNumber += indexes;
+            logger.info("The number founded at index: " + indexes.substring(0,indexes.length() - 2));
         }
     }
 
@@ -66,7 +66,7 @@ public class Controller {
                 wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
-                logger.error("An exception occurred when thread is waiting", e); // logging out as an error
+                logger.error("An exception occurred when thread is waiting", e);
             }
         }
     }
@@ -81,17 +81,34 @@ public class Controller {
     }
 
     /**
-     * Method for checking if the number has founded already
-     * @return A boolean - true if founded
-     */
-    public synchronized boolean isFounded() {
-        return founded;
-    }
-
-    /**
      * Method for logging out a message when a thread has started
      */
     public synchronized void treadStarted() {
         logger.info("Thread started");
     }
+
+    /**
+     * Defines the work range of each thread
+     */
+    private synchronized void defineRangeAndMaxTreads(int userNumOfThreads, int userArrayLength) {
+        if (userNumOfThreads > userArrayLength){
+            logger.warn("Input number of threads is too high -> Reducing number of threads to array length");
+            maxThreads = userArrayLength;
+            singleThreadRange = 1;
+            return;
+        }
+        double tmp = (double)userArrayLength / userNumOfThreads;
+        int tmp2 = (int) Math.floor(tmp);
+        singleThreadRange = tmp2;
+        maxThreads = userNumOfThreads;
+    }
+
+    public synchronized int getMaxThreads(){
+        return maxThreads;
+    }
+
+    public synchronized int getSingleThreadRange(){
+        return singleThreadRange;
+    }
+
 }
