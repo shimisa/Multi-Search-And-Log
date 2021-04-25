@@ -29,12 +29,11 @@ public class SearchThread extends Thread{
     }
 
     /**
-     * The run method executes the search for every thread, and updates the controller
+     * The run method executes the search recursively for every thread, and updates the controller
      */
     @Override
     public void run() {
         controller.treadStarted();
-        /* recursive version */
         controller.setFounded(recSearch(indexFrom,indexTill, ""));
         controller.treadFinished();
     }

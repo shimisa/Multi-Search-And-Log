@@ -9,3 +9,26 @@
 [INFO ] 2021-04-24 16:41:52.425 [Thread-1] Main - Thread finished
 [INFO ] 2021-04-24 16:41:52.426 [Thread-3] Main - The number founded at index: 8, 9
 [INFO ] 2021-04-24 16:41:52.426 [Thread-3] Main - Thread finished
+[INFO ] 2021-04-25 11:37:21.691 [Thread-0] Main - Thread started
+[INFO ] 2021-04-25 11:37:21.701 [Thread-1] Main - Thread started
+[INFO ] 2021-04-25 11:37:21.703 [Thread-2] Main - Thread started
+[INFO ] 2021-04-25 11:37:21.707 [Thread-3] Main - Thread started
+[INFO ] 2021-04-25 11:37:21.715 [Thread-0] Main - The number founded at index: 0
+[INFO ] 2021-04-25 11:37:21.715 [Thread-0] Main - Thread finished
+[INFO ] 2021-04-25 11:37:21.716 [Thread-1] Main - The number founded at index: 3
+[INFO ] 2021-04-25 11:37:21.716 [Thread-1] Main - Thread finished
+[INFO ] 2021-04-25 11:37:21.718 [Thread-3] Main - The number founded at index: 9, 14
+[INFO ] 2021-04-25 11:37:21.718 [Thread-3] Main - Thread finished
+[INFO ] 2021-04-25 11:37:21.718 [Thread-2] Main - The number founded at index: 8
+[INFO ] 2021-04-25 11:37:21.719 [Thread-2] Main - Thread finished
+[INFO ] 2021-04-25 11:37:41.494 [Thread-0] Main - Thread started
+[INFO ] 2021-04-25 11:37:41.502 [Thread-1] Main - Thread started
+[INFO ] 2021-04-25 11:37:41.510 [Thread-2] Main - Thread started
+[INFO ] 2021-04-25 11:37:41.510 [Thread-2] Main - Thread finished
+[INFO ] 2021-04-25 11:37:41.510 [Thread-3] Main - Thread started
+[INFO ] 2021-04-25 11:37:41.510 [Thread-3] Main - The number founded at index: 8, 9
+[INFO ] 2021-04-25 11:37:41.510 [Thread-3] Main - Thread finished
+[INFO ] 2021-04-25 11:37:41.510 [Thread-1] Main - The number founded at index: 3
+[INFO ] 2021-04-25 11:37:41.510 [Thread-1] Main - Thread finished
+[INFO ] 2021-04-25 11:37:41.518 [Thread-0] Main - The number founded at index: 0
+[INFO ] 2021-04-25 11:37:41.518 [Thread-0] Main - Thread finished
